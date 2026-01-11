@@ -198,7 +198,7 @@ export default function Page() {
   return (
     <div className="min-h-dvh bg-neutral-950 text-neutral-50">
       {/* Sticky full-width header */}
-      <header className="sticky top-0 z-20 border-b border-neutral-800 bg-neutral-950/95">
+      <header className="sticky top-0 z-50 border-b border-neutral-800 bg-neutral-950/95">
         <div className="mx-auto flex h-14 max-w-none items-center justify-between px-4">
           <div className="text-sm font-medium">Micromsg</div>
 
@@ -241,7 +241,7 @@ export default function Page() {
         </div>
 
         {/* Bottom composer (fixed), centered to same max width */}
-        <div className="fixed left-0 right-0 z-30" style={{ bottom: "calc(40px + env(safe-area-inset-bottom))" }}>
+        <div className="fixed left-0 right-0 z-30" style={{ bottom: "calc(24px + env(safe-area-inset-bottom))" }}>
           <div className="mx-auto max-w-lg px-4">
             <div className={`mb-4 relative min-h-[44px] flex items-center ${composerRadiusClass} border border-neutral-800 bg-neutral-900/60 pl-4 pr-[6px] py-2`}>
               <textarea
